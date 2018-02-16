@@ -2,41 +2,8 @@
 
     require_once("databaseconnection.php");
     
-    session_start();
+    require_once("hacerregistro.php");
 
-    if(isset($_SESSION["id"])) {
-        header("Location:main.php");
-    }
-
-    if (isset($_POST['usuario'])) {
-        
-        $usuario = $connectdb->real_escape_string($_POST["usuario"]);
-        $email = $connectdb->real_escape_string($_POST["email"]);
-        $contrasena = $connectdb->real_escape_string($_POST["contrasena"]);
-        $confirmarContrasena = $connectdb->real_escape_string($_POST["confirmarContrasena"]);
-        $nombre_completo = $connectdb->real_escape_string($_POST["nombre_completo"]);
-        $fecha_nacimiento = $connectdb->real_escape_string($_POST["fecha_nacimiento"]);
-        $pais_origen = $connectdb->real_escape_string($_POST["pais_origen"]);
-
-        if($contrasena == $confirmarContrasena) {
-            $comprobacion = $connectdb->query("SELECT * FROM usuarios WHERE usuario = '$usuario';");
-
-            if(!$comprobacion->num_rows) {
-                $insertar = $connectdb->query("INSERT INTO usuarios VALUES ('$usuario', '$contrasena', '$email', false, '$nombre_completo', '$fecha_nacimiento', '$pais_origen', NULL, NULL);");
-
-                $_SESSION["id"] = session_id();
-                $_SESSION["usuario"] = $_POST["usuario"];
-                header("location:main.php");
-                exit();
-
-            } else {
-                $mensaje = "<p class=\"error\">Ese usuario ya existe</p><p class=\"error\">Por favor, pruebe con otro nombre de usuario.</p>" ;
-            }
-        } else {
-            $mensaje = "<p class=\"error\">Las contraseñas no coinciden.</p><p class=\"error\">Por favor, vuelva a intentarlo</p>" ;
-        }
-
-    }   
 
 ?>
 <!DOCTYPE html>
@@ -57,18 +24,20 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
         <!-- jQuery UI -->
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="../js/jquery.validate.js"></script>
+        <script src="../js/additional-methods.js"></script>
         <script src="../js/registro.js"></script>
 		<title>Registro - TBasketball</title>
     </head>
     <body>
         <div class="container">
-            <form class="vertical-center" action="" method="post">
-            <h2>Registrar</h2>
+            <form id="form-registro" class="vertical-center" action="hacerregistro.php" method="post">
+            <h2>Regístrate</h2>
                 <div class="row">
                     <div class="col s12">
                         <div class="input-field col s6">
                             <label for="usuario">Usuario:</label>
-                            <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
+                            <input type="text" name="usuario" id="usuario" placeholder="Usuario">
                         </div>
                         <div class="input-field col s6">
                             <label for="email">Email:</label>
@@ -80,11 +49,11 @@
                     <div class="col s12">
                         <div class="input-field col s6">
                             <label for="password">Contraseña: </label>
-                            <input type="password" name="contrasena" id="password" placeholder="Contraseña">
+                            <input type="password" name="contrasena" id="contrasena" placeholder="Contraseña">
                         </div>
                         <div class="input-field col s6">
                             <label for="password">Confirmar contraseña: </label>
-                            <input type="password" name="confirmarContrasena" id="password" placeholder="Confirmar contraseña">
+                            <input type="password" name="confirmarContrasena" id="confirmarContrasena" placeholder="Confirmar contraseña">
                         </div>
                     </div>
                 </div>

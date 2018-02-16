@@ -16,6 +16,8 @@
 		destruir_session() ; 
 	}
 
+
+	
 ?>
 <!DOCTYPE html>
 <html>
@@ -76,24 +78,27 @@
 		<!-- Fin del navbar -->
 		<h3 class="user">Bienvenido <strong><?= $_SESSION["usuario"] ?></strong></h3>
 		<h6 class="user">Aquí tienes una lista con los equipos disponibles</h6>
-		<div class="row">
-			<form class="col s12" action="equiposeleccionado.php" method="POST">
-				<div class="input-field col s12 m6">
-					<select>
-						<option value="" disabled selected>Choose your option</option>
-						<?php
-							$consulta = $connectdb->query("SELECT nombre_franquicia FROM equipos");
-							while($resultado = $consulta->fetch_object()) {
-								
-								echo '<option value="' .$resultado->nombre_franquicia.'">' .$resultado->nombre_franquicia.'</option>';
-								
-							} mysqli_free_result($consulta); 
-						?>
-					</select>
-				</div>
-				<input type="submit">
-			</form>
+		<div class="container">
+			<div class="row">
+				<form class="col s12" action="equiposeleccionado.php" method="get">
+					<div class="input-field col s4 offset-s4">
+						<select name="equipo">
+							<option value="" disabled selected>Elija un equipo</option>
+							<?php
+								$consulta = $connectdb->query("SELECT nombre_franquicia FROM equipos");
+								while($resultado = $consulta->fetch_object()) {
+									
+									echo '<option value="' .$resultado->nombre_franquicia.'">' .$resultado->nombre_franquicia.'</option>';
+									
+								} mysqli_free_result($consulta); 
+							?>
+						</select>
+					</div><br>
+					<button class="btn waves-effect waves-light" type="submit" name="action">Consultar
+						<i class="material-icons right">find_in_page</i>
+					</button>
+				</form>
+			</div>
 		</div>
-	
 </body>
 </html>

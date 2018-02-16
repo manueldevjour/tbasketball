@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-02-2018 a las 00:03:59
+-- Tiempo de generación: 16-02-2018 a las 14:25:54
 -- Versión del servidor: 10.1.29-MariaDB
 -- Versión de PHP: 7.2.0
 
@@ -121,17 +121,17 @@ CREATE TABLE IF NOT EXISTS `jugadores` (
 --
 
 INSERT INTO `jugadores` (`id_jugador`, `nombre_principal`, `nombre_completo`, `fecha_nacimiento`, `altura`, `peso`, `posicion`, `universidad`, `draft`, `anos_nba`, `campeon_nba`, `num_vec_camp_nba`, `imagen`, `id_franquicia`) VALUES
-(1, 'Grinyer', 'Ronalda Grinyer', '19/03/1980', 154, 120, 'ala-pívot', 'Tokiwa University', 'Primera ronda', 7, 1, 8, 'http://dummyimage.com/150x233.jpg/ff4444/ffffff', NULL),
-(2, 'Gracewood', 'Farrah Gracewood', '25/10/1991', 201, 133, 'base', 'Goshen College', 'Primera ronda', 11, 0, 3, 'http://dummyimage.com/247x191.bmp/5fa2dd/ffffff', NULL),
-(3, 'McGuinley', 'Dore McGuinley', '28/09/1988', 164, 84, 'escolta', 'Indiana University - East', 'Primera ronda', 8, 1, 2, 'http://dummyimage.com/148x164.png/5fa2dd/ffffff', NULL),
-(4, 'Fochs', 'Mata Fochs', '07/08/1982', 212, 56, 'pívot', 'Institute of Business Management ', 'Primera ronda', 6, 0, 8, 'http://dummyimage.com/225x168.jpg/ff4444/ffffff', NULL),
-(5, 'Ginnaly', 'Freddy Ginnaly', '22/07/1982', 167, 84, 'base', 'The Kingdom University', 'Segunda ronda', 12, 0, 3, 'http://dummyimage.com/229x187.jpg/5fa2dd/ffffff', NULL),
-(6, 'Briereton', 'Vaclav Briereton', '16/08/1993', 180, 79, 'base', 'Universidad Católica de Córdoba', 'Primera ronda', 2, 0, 8, 'http://dummyimage.com/190x248.png/dddddd/000000', NULL),
-(7, 'Ionesco', 'Thedric Ionesco', '17/12/1995', 156, 61, 'escolta', 'Universität für Musik und darstellende Kunst Graz', 'Segunda ronda', 9, 0, 1, 'http://dummyimage.com/118x125.bmp/5fa2dd/ffffff', NULL),
-(8, 'Ebertz', 'Rickie Ebertz', '04/01/1980', 182, 148, 'ala-pívot', 'Slobomir P Univerzitet', 'Segunda ronda', 2, 0, 2, 'http://dummyimage.com/174x201.png/dddddd/000000', NULL),
-(9, 'Hendrick', 'Radcliffe Hendrick', '23/12/1999', 180, 64, 'ala-pívot', 'National University of Internal Affairs', 'Segunda ronda', 9, 1, 7, 'http://dummyimage.com/145x135.jpg/dddddd/000000', NULL),
-(10, 'Perchard', 'Rinaldo Perchard', '31/12/1972', 181, 85, 'base', 'Oklahoma Panhandle State University', 'Primera ronda', 6, 1, 2, 'http://dummyimage.com/102x235.bmp/cc0000/ffffff', NULL),
-(11, 'Yeandel', 'Barbi Yeandel', '28/02/1991', 217, 75, 'pívot', 'University of Oregon', 'Segunda ronda', 9, 0, 5, 'http://dummyimage.com/120x126.png/ff4444/ffffff', NULL),
+(1, 'Grinyer', 'Ronalda Grinyer', '19/03/1980', 154, 120, 'ala-pívot', 'Tokiwa University', 'Primera ronda', 7, 1, 8, 'http://dummyimage.com/150x233.jpg/ff4444/ffffff', 1),
+(2, 'Gracewood', 'Farrah Gracewood', '25/10/1991', 201, 133, 'base', 'Goshen College', 'Primera ronda', 11, 0, 3, 'http://dummyimage.com/247x191.bmp/5fa2dd/ffffff', 1),
+(3, 'McGuinley', 'Dore McGuinley', '28/09/1988', 164, 84, 'escolta', 'Indiana University - East', 'Primera ronda', 8, 1, 2, 'http://dummyimage.com/148x164.png/5fa2dd/ffffff', 1),
+(4, 'Fochs', 'Mata Fochs', '07/08/1982', 212, 56, 'pívot', 'Institute of Business Management ', 'Primera ronda', 6, 0, 8, 'http://dummyimage.com/225x168.jpg/ff4444/ffffff', 1),
+(5, 'Ginnaly', 'Freddy Ginnaly', '22/07/1982', 167, 84, 'base', 'The Kingdom University', 'Segunda ronda', 12, 0, 3, 'http://dummyimage.com/229x187.jpg/5fa2dd/ffffff', 1),
+(6, 'Briereton', 'Vaclav Briereton', '16/08/1993', 180, 79, 'base', 'Universidad Católica de Córdoba', 'Primera ronda', 2, 0, 8, 'http://dummyimage.com/190x248.png/dddddd/000000', 1),
+(7, 'Ionesco', 'Thedric Ionesco', '17/12/1995', 156, 61, 'escolta', 'Universität für Musik und darstellende Kunst Graz', 'Segunda ronda', 9, 0, 1, 'http://dummyimage.com/118x125.bmp/5fa2dd/ffffff', 1),
+(8, 'Ebertz', 'Rickie Ebertz', '04/01/1980', 182, 148, 'ala-pívot', 'Slobomir P Univerzitet', 'Segunda ronda', 2, 0, 2, 'http://dummyimage.com/174x201.png/dddddd/000000', 1),
+(9, 'Hendrick', 'Radcliffe Hendrick', '23/12/1999', 180, 64, 'ala-pívot', 'National University of Internal Affairs', 'Segunda ronda', 9, 1, 7, 'http://dummyimage.com/145x135.jpg/dddddd/000000', 1),
+(10, 'Perchard', 'Rinaldo Perchard', '31/12/1972', 181, 85, 'base', 'Oklahoma Panhandle State University', 'Primera ronda', 6, 1, 2, 'http://dummyimage.com/102x235.bmp/cc0000/ffffff', 1),
+(11, 'Yeandel', 'Barbi Yeandel', '28/02/1991', 217, 75, 'pívot', 'University of Oregon', 'Segunda ronda', 9, 0, 5, 'http://dummyimage.com/120x126.png/ff4444/ffffff', 2),
 (12, 'Trimmell', 'Aurelia Trimmell', '04/02/1993', 177, 70, 'pívot', 'University of Nebraska - Omaha', 'Primera ronda', 9, 1, 1, 'http://dummyimage.com/133x111.png/5fa2dd/ffffff', NULL),
 (13, 'Spellar', 'Aube Spellar', '28/02/1979', 170, 112, 'base', 'Taegu University', 'Segunda ronda', 12, 1, 2, 'http://dummyimage.com/244x141.png/dddddd/000000', NULL),
 (14, 'Headford', 'Jarret Headford', '27/05/1987', 171, 132, 'ala-pívot', 'Ecole Nationale Supérieure des Mines de Paris', 'Primera ronda', 8, 1, 7, 'http://dummyimage.com/128x109.bmp/5fa2dd/ffffff', NULL),
@@ -160,7 +160,7 @@ INSERT INTO `jugadores` (`id_jugador`, `nombre_principal`, `nombre_completo`, `f
 (37, 'Donaghie', 'Tymon Donaghie', '05/01/1991', 227, 146, 'escolta', 'Osaka International University', 'Segunda ronda', 5, 0, 3, 'http://dummyimage.com/133x158.png/ff4444/ffffff', NULL),
 (38, 'Janew', 'Ana Janew', '21/09/1982', 186, 65, 'pívot', 'Planwel University', 'Primera ronda', 7, 0, 6, 'http://dummyimage.com/168x138.png/5fa2dd/ffffff', NULL),
 (39, 'Antonignetti', 'Malcolm Antonignetti', '26/08/1989', 156, 126, 'alero', 'Chuo University', 'Primera ronda', 12, 0, 10, 'http://dummyimage.com/232x199.png/cc0000/ffffff', NULL),
-(40, 'Drysdell', 'Xena Drysdell', '01/10/1991', 164, 109, 'alero', 'Ecole Supérieure des Sciences et Technologie de l\Ingénieur de Nancy', 'Segunda ronda', 4, 1, 4, 'http://dummyimage.com/113x224.bmp/cc0000/ffffff', NULL),
+(40, 'Drysdell', 'Xena Drysdell', '01/10/1991', 164, 109, 'alero', 'Ecole Supérieure des Sciences et Technologie de lIngénieur de Nancy', 'Segunda ronda', 4, 1, 4, 'http://dummyimage.com/113x224.bmp/cc0000/ffffff', NULL),
 (41, 'Huddy', 'Shurlocke Huddy', '27/07/1975', 183, 129, 'base', 'National Aerospace University Kharkov Aviation Institute', 'Segunda ronda', 10, 1, 6, 'http://dummyimage.com/164x247.bmp/ff4444/ffffff', NULL),
 (42, 'Scurlock', 'Vladamir Scurlock', '01/04/1979', 185, 146, 'base', 'Universitat de Vic', 'Segunda ronda', 5, 0, 3, 'http://dummyimage.com/108x216.bmp/ff4444/ffffff', NULL),
 (43, 'Stailey', 'Herbie Stailey', '31/08/1979', 185, 76, 'ala-pívot', 'Kardan University', 'Primera ronda', 8, 1, 8, 'http://dummyimage.com/184x228.jpg/cc0000/ffffff', NULL),
@@ -241,7 +241,7 @@ INSERT INTO `jugadores` (`id_jugador`, `nombre_principal`, `nombre_completo`, `f
 (118, 'MacAlinden', 'Charisse MacAlinden', '04/03/1980', 198, 143, 'escolta', 'Universidad Jóse Vasconcelos', 'Segunda ronda', 4, 0, 3, 'http://dummyimage.com/141x250.jpg/ff4444/ffffff', NULL),
 (119, 'Leaning', 'Hayward Leaning', '03/08/1996', 194, 138, 'alero', 'Ohio University - Zanesville', 'Segunda ronda', 9, 0, 6, 'http://dummyimage.com/138x183.jpg/cc0000/ffffff', NULL),
 (120, 'Haysom', 'Leonora Haysom', '31/10/1991', 199, 100, 'escolta', 'Latvian Academy of Arts', 'Primera ronda', 4, 0, 6, 'http://dummyimage.com/175x183.bmp/5fa2dd/ffffff', NULL),
-(121, 'Wolfendale', 'Neala Wolfendale', '28/09/1990', 193, 94, 'ala-pívot', 'International People\s College', 'Primera ronda', 11, 1, 7, 'http://dummyimage.com/136x156.bmp/ff4444/ffffff', NULL),
+(121, 'Wolfendale', 'Neala Wolfendale', '28/09/1990', 193, 94, 'ala-pívot', 'International Peoples College', 'Primera ronda', 11, 1, 7, 'http://dummyimage.com/136x156.bmp/ff4444/ffffff', NULL),
 (122, 'Kayzer', 'Eadmund Kayzer', '02/11/1992', 153, 117, 'pívot', 'University of Science and Culture', 'Segunda ronda', 7, 0, 1, 'http://dummyimage.com/201x157.png/ff4444/ffffff', NULL),
 (123, 'Kelson', 'Juliane Kelson', '25/07/1978', 174, 71, 'base', 'Wonkwang University', 'Segunda ronda', 8, 0, 5, 'http://dummyimage.com/145x197.jpg/dddddd/000000', NULL),
 (124, 'Wardrop', 'Lucina Wardrop', '13/12/1988', 150, 149, 'escolta', 'Ecole Supérieure de Commerce de Marseille-Provence', 'Primera ronda', 11, 1, 5, 'http://dummyimage.com/102x195.png/5fa2dd/ffffff', NULL),
@@ -251,7 +251,7 @@ INSERT INTO `jugadores` (`id_jugador`, `nombre_principal`, `nombre_completo`, `f
 (128, 'Marrill', 'Diandra Marrill', '17/10/1972', 185, 136, 'ala-pívot', 'Asian Medical Institute', 'Primera ronda', 3, 1, 4, 'http://dummyimage.com/231x152.png/dddddd/000000', NULL),
 (129, 'Pawlett', 'Merry Pawlett', '30/01/1984', 199, 52, 'ala-pívot', 'Islamic University of Rotterdam', 'Segunda ronda', 3, 0, 10, 'http://dummyimage.com/149x111.jpg/cc0000/ffffff', NULL),
 (130, 'Ivery', 'Henriette Ivery', '30/11/1981', 192, 94, 'base', 'University of Texas Pan American', 'Primera ronda', 7, 0, 8, 'http://dummyimage.com/148x174.jpg/cc0000/ffffff', NULL),
-(131, 'Turmell', 'Hetti Turmell', '30/08/1995', 199, 99, 'alero', 'Osaka Women\s University', 'Segunda ronda', 10, 0, 5, 'http://dummyimage.com/115x204.jpg/5fa2dd/ffffff', NULL),
+(131, 'Turmell', 'Hetti Turmell', '30/08/1995', 199, 99, 'alero', 'Osaka Womens University', 'Segunda ronda', 10, 0, 5, 'http://dummyimage.com/115x204.jpg/5fa2dd/ffffff', NULL),
 (132, 'Chue', 'Cass Chue', '19/05/1998', 152, 90, 'alero', 'Fachhochschule Lausitz', 'Primera ronda', 10, 1, 6, 'http://dummyimage.com/127x146.jpg/5fa2dd/ffffff', NULL),
 (133, 'Corpes', 'Pattie Corpes', '23/12/1975', 182, 149, 'alero', 'Chongqing Technology and Business University', 'Segunda ronda', 6, 1, 6, 'http://dummyimage.com/211x208.png/cc0000/ffffff', NULL),
 (134, 'Chaplin', 'Annora Chaplin', '23/03/1997', 163, 129, 'pívot', 'Bryant and Stratton College', 'Segunda ronda', 2, 1, 8, 'http://dummyimage.com/163x206.png/ff4444/ffffff', NULL),
@@ -290,7 +290,7 @@ INSERT INTO `jugadores` (`id_jugador`, `nombre_principal`, `nombre_completo`, `f
 (167, 'Philpot', 'Clo Philpot', '19/11/1997', 164, 143, 'escolta', 'Colegio de Estudios Superiores de Administración (CESA)', 'Segunda ronda', 9, 1, 5, 'http://dummyimage.com/226x160.bmp/5fa2dd/ffffff', NULL),
 (168, 'Novelli', 'Augusta Novelli', '02/09/1991', 226, 67, 'alero', 'University of Food Technology', 'Segunda ronda', 1, 0, 3, 'http://dummyimage.com/125x185.png/cc0000/ffffff', NULL),
 (169, 'Mabbs', 'Carol Mabbs', '02/06/1996', 152, 128, 'pívot', 'Universidad de La Habana', 'Segunda ronda', 11, 0, 2, 'http://dummyimage.com/196x168.jpg/dddddd/000000', NULL),
-(170, 'Sangar', 'Corinna Sangar', '13/09/1975', 180, 148, 'alero', 'Norway\s Information Technology University College', 'Segunda ronda', 5, 0, 6, 'http://dummyimage.com/156x112.bmp/ff4444/ffffff', NULL),
+(170, 'Sangar', 'Corinna Sangar', '13/09/1975', 180, 148, 'alero', 'Norways Information Technology University College', 'Segunda ronda', 5, 0, 6, 'http://dummyimage.com/156x112.bmp/ff4444/ffffff', NULL),
 (171, 'Binnell', 'Wilbert Binnell', '03/09/1997', 160, 89, 'pívot', 'Dadabhoy Institute of Higher Education', 'Segunda ronda', 4, 0, 5, 'http://dummyimage.com/193x242.jpg/dddddd/000000', NULL),
 (172, 'Spooner', 'Rois Spooner', '23/05/1995', 192, 96, 'escolta', 'University of Brighton', 'Segunda ronda', 9, 1, 2, 'http://dummyimage.com/188x172.png/cc0000/ffffff', NULL),
 (173, 'Matuszkiewicz', 'Kitti Matuszkiewicz', '14/06/1994', 204, 144, 'pívot', 'Coker College', 'Primera ronda', 3, 1, 5, 'http://dummyimage.com/134x243.jpg/5fa2dd/ffffff', NULL),
@@ -314,7 +314,7 @@ INSERT INTO `jugadores` (`id_jugador`, `nombre_principal`, `nombre_completo`, `f
 (191, 'Votier', 'Lynnette Votier', '06/05/1990', 198, 92, 'alero', 'Kirkwood Community College', 'Primera ronda', 2, 1, 1, 'http://dummyimage.com/236x245.bmp/5fa2dd/ffffff', NULL),
 (192, 'Moden', 'Darrin Moden', '25/09/1984', 204, 147, 'base', 'Universitas Methodist Indonesia', 'Primera ronda', 9, 0, 1, 'http://dummyimage.com/145x143.png/5fa2dd/ffffff', NULL),
 (193, 'Puddicombe', 'Corry Puddicombe', '16/04/1994', 156, 146, 'ala-pívot', 'Universidade dos Acores', 'Segunda ronda', 7, 0, 9, 'http://dummyimage.com/184x132.jpg/dddddd/000000', NULL),
-(194, 'Budgey', 'Danyelle Budgey', '28/06/1974', 167, 54, 'ala-pívot', 'Sungshin Women\s University', 'Segunda ronda', 3, 0, 6, 'http://dummyimage.com/141x219.png/5fa2dd/ffffff', NULL),
+(194, 'Budgey', 'Danyelle Budgey', '28/06/1974', 167, 54, 'ala-pívot', 'Sungshin Womens University', 'Segunda ronda', 3, 0, 6, 'http://dummyimage.com/141x219.png/5fa2dd/ffffff', NULL),
 (195, 'Emes', 'Isaiah Emes', '30/04/1975', 158, 78, 'escolta', 'Université Alioune Diop de Bambey', 'Segunda ronda', 9, 1, 9, 'http://dummyimage.com/217x217.bmp/cc0000/ffffff', NULL),
 (196, 'Greveson', 'Carolyn Greveson', '24/02/1972', 212, 102, 'ala-pívot', 'Universidad de Granma', 'Primera ronda', 9, 1, 10, 'http://dummyimage.com/135x119.png/ff4444/ffffff', NULL),
 (197, 'Staddart', 'Ofilia Staddart', '26/05/1985', 174, 57, 'alero', 'Technological University (Taunggyi)', 'Primera ronda', 6, 0, 5, 'http://dummyimage.com/154x223.bmp/cc0000/ffffff', NULL),
@@ -468,11 +468,18 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`usuario`, `contrasena`, `email`, `administrador`, `nombre_completo`, `fecha_nacimiento`, `pais_origen`, `id_franquicia`, `id_pais`) VALUES
+('', '', '', 0, '', '', '', NULL, NULL),
 ('abastonz', '75ba05388d79d131ac23ffc8170ede34', 'abastonz@kickstarter.com', 0, 'Adela Baston', '31/12/1932', 'Kazakhstan', 14, NULL),
 ('admin', 'admin', 'admin@admin.com', 1, 'Administrator Admin', '02/09/1945', 'Spain', 9, NULL),
 ('aedgleyy', '877dc4fbab8bddeade3ed9f1c40de41d', 'aedgleyy@friendfeed.com', 0, 'Audie Edgley', '29/02/1912', 'Indonesia', 15, NULL),
 ('ahaslehurst2', 'a7f969a501554b924c9612fedb48d1ff', 'ahaslehurst2@mashable.com', 0, 'Austin Haslehurst', '03/12/1976', 'Indonesia', 30, NULL),
 ('aogilbyq', '4c1b84362b1e75e43aa8da3a0fc7a639', 'aogilbyq@google.com.hk', 0, 'Angel Ogilby', '09/03/1993', 'Panama', 20, NULL),
+('as', '', '', 0, '', '', '', NULL, NULL),
+('asas', '', '', 0, '', '', '', NULL, NULL),
+('asd', '', '', 0, '', '', '', NULL, NULL),
+('asd2', 'asd', 'asd@asd.as', 0, 'asd', '2018-02-02', 'asd', NULL, NULL),
+('asdas', '', '', 0, '', '', '', NULL, NULL),
+('asdfgasdfasdfasf', 'asdqwe', 'sadfasdf@asdfasd.asda', 0, 'asd', '6519', 'adasd', NULL, NULL),
 ('bkelwickg', 'fa24495aa64c15542c8d7abda94221ac', 'bkelwickg@blog.com', 0, 'Barbey Kelwick', '28/05/2002', 'Russia', 4, NULL),
 ('bpurvesx', '6d913216d4e78c89cf47525c09260a61', 'bpurvesx@jugem.jp', 0, 'Brena Purves', '30/07/2003', 'China', 30, NULL),
 ('brufo', 'b6d89a1e7c881fae520ef6faf4e562e3', 'brufo@histats.com', 0, 'Blakeley Ruf', '07/05/1953', 'Honduras', 5, NULL),
@@ -500,7 +507,11 @@ INSERT INTO `usuarios` (`usuario`, `contrasena`, `email`, `administrador`, `nomb
 ('kbucknall1d', '2021e5e3faf785112f311e066890d02f', 'kbucknall1d@seesaa.net', 0, 'Kerstin Bucknall', '15/10/1991', 'Philippines', 28, NULL),
 ('kgawkes8', '32e00b89a6ecdce0149c5736b0905d53', 'kgawkes8@virginia.edu', 0, 'Kessiah Gawkes', '14/02/1982', 'Bosnia and Herzegovina', 25, NULL),
 ('lel', 'lel', 'lel@lel.lel', 0, 'lel', '02/04/2018', 'lelandia', NULL, NULL),
+('lelel', 'asd', 'asdasd@asda.es', 0, 'asd', '2018-02-21', 'asd', NULL, NULL),
+('lelo', 'lelolelo', 'lelo@lelo.lelo', 0, 'lelo', '07-02-2018', 'lelo', NULL, NULL),
 ('lludlow9', '98a27fd82ef6e889c584c3e40e3687e6', 'lludlow9@google.de', 0, 'Loella Ludlow', '10/12/2011', 'Ethiopia', 23, NULL),
+('lmao', 'lmao', 'lmao@lmao.lmao', 0, 'lmao', '2018-02-25', 'lmaolandia', NULL, NULL),
+('lmaolmao', 'lmaolmao', 'lmao@lmaooo.es', 0, 'lmao', '15/12/1954', 'asd', NULL, NULL),
 ('lmityashevu', 'f03b6db62e7e885abc062b6224c431d5', 'lmityashevu@utexas.edu', 0, 'Lelah Mityashev', '10/01/1920', 'France', 14, NULL),
 ('lweatherbyk', '1543c06a05a18e41f8727bffd27a3aef', 'lweatherbyk@multiply.com', 0, 'Lenette Weatherby', '05/02/1951', 'China', 4, NULL),
 ('mcostanza15', '65d6c077d2583d01899c5088bcda1be2', 'mcostanza15@techcrunch.com', 0, 'Marthena Costanza', '13/05/1974', 'Indonesia', 14, NULL),
@@ -523,9 +534,12 @@ INSERT INTO `usuarios` (`usuario`, `contrasena`, `email`, `administrador`, `nomb
 ('tblackmuir11', '4cc2613f8fee591811bb25ea1a4862f3', 'tblackmuir11@trellian.com', 0, 'Terese Blackmuir', '02/03/1944', 'Venezuela', 23, NULL),
 ('ttrolleye', '089e29f732aee2c0660d048bdbcf95c7', 'ttrolleye@topsy.com', 0, 'Truda Trolley', '13/04/2002', 'Canada', 17, NULL),
 ('vbeevor0', '1fb10078e8b59d2156e01c9568070fad', 'vbeevor0@trellian.com', 0, 'Vevay Beevor', '04/01/1958', 'Portugal', 26, NULL),
+('wanoleete', 'wanolete', 'wanioas@asd', 0, 'waosnfa', 'asdasdasd', 'asdasd', NULL, NULL),
+('wanolito', 'wanolito', 'wanolito@gmail.com', 0, 'wanolito', '5496851', 'wanolitolandia', NULL, NULL),
 ('wcokayne7', 'f8d1d7d7f60b65a964b56e789f32e231', 'wcokayne7@sitemeter.com', 0, 'Wye Cokayne', '24/04/1944', 'Indonesia', 19, NULL),
 ('we', 'we', 'we@we.we', 0, 'we', '1995-01-01', 'welandia', NULL, NULL),
 ('wlimpertzt', '13f0c1567ef40b6d77bc35b6f0f27740', 'wlimpertzt@nba.com', 0, 'Wylie Limpertz', '18/12/1945', 'Russia', 6, NULL),
+('wololo', 'wolololo', 'wololo@wololo.wololo', 0, 'adfasdf', 'adfaf', 'asfasf', NULL, NULL),
 ('wtf', 'wtf', 'wtf@wtf-wtf', 0, 'wtf', '02/21/2018', 'wtf', NULL, NULL);
 
 --
