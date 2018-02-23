@@ -11,6 +11,7 @@ Requisitos proporcionados en la Moodle para las asignaturas de [*Desarrollo Web 
 - Abrir un Issues.
 - Email: manolocb96@gmail.com
 
+---
 
 ## Especificaciones
 
@@ -41,6 +42,8 @@ Se han usado diferentes tecnologías y lenguajes.
 - jQuery
 - jQuery UI
 - API oficial de Google Maps
+
+---
 
 ## Capturas de pantalla
 
