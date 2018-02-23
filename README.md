@@ -47,20 +47,32 @@ Se han usado diferentes tecnologías y lenguajes.
 
 ## Capturas de pantalla
 
+---
+
 ### Vista general
+
+---
 
 ![image](/img/capturas/registro.png)
 ![image](/img/capturas/login.png)
 ![image](/img/capturas/sidenav.png)
 
+---
+
 ### Vista administración
+
+---
 
 ![image](/img/capturas/indexadmin.png)
 ![image](/img/capturas/equipoadmin.png)
 ![image](/img/capturas/jugadoradmin.png)
 ![image](/img/capturas/perfiladmin.png)
 
+---
+
 ### Vista usuarios
+
+---
 
 ![image](/img/capturas/indexusuario.png)
 ![image](/img/capturas/equipousuario.png)
