@@ -18,5 +18,6 @@ Requisitos proporcionados en la Moodle para las asignaturas de [*Desarrollo Web 
 ## Capturas de pantalla
 
 ### Administración
-![Index con admin logeado](\img\capturas\indexadmin,png)
+
+![](\img\capturas\indexadmin,png)
 
