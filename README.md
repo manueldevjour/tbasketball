@@ -17,7 +17,22 @@ Requisitos proporcionados en la Moodle para las asignaturas de [*Desarrollo Web 
 
 ## Capturas de pantalla
 
-### Administración
+### Vista general
+
+![image](/img/capturas/registro.png)
+![image](/img/capturas/login.png)
+![image](/img/capturas/sidenav.png)
+
+### Vista administración
 
 ![image](/img/capturas/indexadmin.png)
+![image](/img/capturas/equipoadmin.png)
+![image](/img/capturas/jugadoradmin.png)
+![image](/img/capturas/perfiladmin.png)
 
+### Vista usuarios
+
+![image](/img/capturas/indexusuario.png)
+![image](/img/capturas/equipousuario.png)
+![image](/img/capturas/jugadorusuario.png)
+![image](/img/capturas/perfilusuario.png)
