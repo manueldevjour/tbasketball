@@ -29,6 +29,19 @@ A la espera de encontrar una buena API de la que hacer uso para poder traer dato
 
 Si sigues bajando, podrás ver las diferentes capturas de pantalla de las diferentes páginas existentes, por ahora, en la aplicación.
 
+---
+
+Se han usado diferentes tecnologías y lenguajes.
+
+- HTML
+- CSS
+- Framework de CSS [Materializecss](http://materializecss.com/)
+- PHP
+- Javascript
+- jQuery
+- jQuery UI
+- API oficial de Google Maps
+
 ## Capturas de pantalla
 
 ### Vista general
