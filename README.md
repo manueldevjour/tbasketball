@@ -14,6 +14,20 @@ Requisitos proporcionados en la Moodle para las asignaturas de [*Desarrollo Web 
 
 ## Especificaciones
 
+#### Título de la aplicación
+
+TBasketball
+
+#### Descripción de la aplicación
+
+Pequeña página donde poder ver los datos de equipos y jugadores de una liga. Actualmente, son datos falsos generados con
+[Mockaroo](https://mockaroo.com/).
+
+Si eres administrador de esta página, podrás borrar equipos, jugadores y usuarios. Ahora mismo queda pendiente añadir y
+modificar los datos de lo mismo, pero no es primordial ya que no es a lo que está enfocado.
+A la espera de encontrar una buena API de la que hacer uso para poder traer datos reales desde las bases de datos oficiales de la NBA, seguirán estos datos 'fake'.
+
+Si sigues bajando, podrás ver las diferentes capturas de pantalla de las diferentes páginas existentes, por ahora, en la aplicación.
 
 ## Capturas de pantalla
 
