@@ -1,0 +1,30 @@
+body {
+    background: url("../img/backgroundregistro.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+h4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 2px 8px 6px white;
+}
+
+.login {
+    float: right;
+}
+
+.error {
+    color: red;
+}
+
+#usuario-error, #email-error, #contrasena-error, #confirmarContrasena-error {
+    position: absolute;
+    color: red;
+    left: 200px;
+}

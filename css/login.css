@@ -1,0 +1,29 @@
+body {
+    background: url("../img/backgroundlogin.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+}
+
+h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+     text-align: center;
+     color: goldenrod;
+     text-shadow: 2px 8px 6px white;
+}
+
+#login {
+    margin-top: 150px;
+    padding: 50px 10px 50px 10px;
+    color: white;
+}
+.registro {
+    position: relative;
+    left: 220px;
+}
+.error {
+    color: red;
+    text-align: center;
+}

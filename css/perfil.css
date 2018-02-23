@@ -1,0 +1,44 @@
+body {
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+.perfiladmin {
+    text-align: center;
+    color: goldenrod;
+}
+
+.perfil {
+    text-align: center;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    background-color: red;
+}
+
+.user {
+    display: none;
+    text-align: center;
+}
+
+.nav-wrapper {
+    background-color: goldenrod;
+}
+
+.brand-logo {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 0px 0px 10px black;
+}
+
+.circle {
+    width: 64px;
+    height: 64px;
+}
+
+table, th {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#dialog-confirm {
+    display: none;
+}

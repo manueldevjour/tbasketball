@@ -1,0 +1,32 @@
+.nav-wrapper {
+    background-color: goldenrod;
+}
+
+.brand-logo {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 0px 0px 10px black;
+}
+
+.circle {
+    width: 64px;
+    height: 64px;
+}
+
+.imagen-jugador{
+    border: 1px solid black;
+    
+}
+
+#map {
+    height: 500px;
+    width: 500px;
+}
+
+#info-mapa {
+    text-align: center;
+}
+
+#info-jugador {
+    position: relative;
+    top: 50px;
+}
