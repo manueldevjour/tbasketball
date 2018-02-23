@@ -19,5 +19,5 @@ Requisitos proporcionados en la Moodle para las asignaturas de [*Desarrollo Web 
 
 ### Administración
 
-![](\img\capturas\indexadmin,png)
+![image](\img\capturas\indexadmin,png)
 
