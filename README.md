@@ -28,6 +28,8 @@ Si eres administrador de esta página, podrás borrar equipos, jugadores y usuar
 modificar los datos de lo mismo, pero no es primordial ya que no es a lo que está enfocado.
 A la espera de encontrar una buena API de la que hacer uso para poder traer datos reales desde las bases de datos oficiales de la NBA, seguirán estos datos 'fake'.
 
+Los datos usados en Google Maps son de la propia base de datos, con mi propia KEY, que cambiaré en unas semanas. Actualmente soporta 25.000 peticiones diarias de forma gratuita.
+
 Si sigues bajando, podrás ver las diferentes capturas de pantalla de las diferentes páginas existentes, por ahora, en la aplicación.
 
 ---
